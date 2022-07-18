@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="TreeViewItemsControl.exe" version="1.0.0.1" publicKeyToken="a6842d5413eb2864" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="TreeViewItemsControl" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="TreeViewItemsControl.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TreeViewItemsControl.exe" size="16304">
+      <assemblyIdentity name="TreeViewItemsControl" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>bJOcCgBrPb/z0lxdpD2Bk6TjxSXBjxEkuCHbgu0UtTA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="TreeViewItemsControl.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=7SOULS\7SOULS" issuerKeyHash="7f8d7501bb2f3c3c1be745ad01b885053a6ee72b" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>bhNfbkOXraKfmDPVygqLdq+IXLFUCpExOLfkKczAdPo=</DigestValue></Reference></SignedInfo><SignatureValue>0Qmklhr33cTQHvJf0ujK35uAGJMY6LKSSY0ju1oiJGNaNESjI8PL3HQyW+WzJFMyqDslF6QT7W67nZQavpvUFl962kv8AfkYRCkAOqH5s3Sq7p1uiaIG2fc5dhb1vLMNVUCktmGrYPQbOsyUX9/+F5yqXUuVK5C5pq/2ZoxdN2M=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>1CVhOy0D7wDHZoNkeFQ4c254hvaYCDXVTeaApfl1sZZ5bfwuwTz3eY4+FzMfXmo78XJwCRTtwjIx7CUur1RjnlvBwm5JYi//1Gms6pBoLFfWROsN9gFzhbnsl7Qq3Oab0Zc8oWcS3IBdokxk0021EwYQbZ0GOBU6sNXISoLiUJU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="fa74c0cc29e4b73831910a54b15c88af768b0acad533989fa2ad97436e5f136e" Description="" Url=""><as:assemblyIdentity name="TreeViewItemsControl.exe" version="1.0.0.1" publicKeyToken="a6842d5413eb2864" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=7SOULS\7SOULS</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>VObTw65gaIWHpJypsardEUEjnDrY1kKk9mt2D34xcW8=</DigestValue></Reference></SignedInfo><SignatureValue>GlCeQ6qA9M3GqpBs/9g1dgziiHhd0PYTnfqGXAmLlWFto1t2vT321Dsdi9jZXIJzk/tgn1s2OTVp+TUzG/jl9qSDVq4AFn3G7TD/t8ReQ4nZVXAohLBe2Wvm5Kd4NNjjwCFyrx4a5suPNfm2XpGl1c9cJvjoVxGPLvmtqpCv8mI=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>1CVhOy0D7wDHZoNkeFQ4c254hvaYCDXVTeaApfl1sZZ5bfwuwTz3eY4+FzMfXmo78XJwCRTtwjIx7CUur1RjnlvBwm5JYi//1Gms6pBoLFfWROsN9gFzhbnsl7Qq3Oab0Zc8oWcS3IBdokxk0021EwYQbZ0GOBU6sNXISoLiUJU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBzTCCATagAwIBAgIQIWCki0qEFr5HPfCWyCTJ8zANBgkqhkiG9w0BAQsFADAlMSMwIQYDVQQDHhoANwBTAE8AVQBMAFMAXAA3AFMATwBVAEwAUzAeFw0yMjA3MTUwNDM5NTRaFw0yMzA3MTUxMDM5NTRaMCUxIzAhBgNVBAMeGgA3AFMATwBVAEwAUwBcADcAUwBPAFUATABTMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDUJWE7LQPvAMdmg2R4VDhzbniG9pgINdVN5oCl+XWxlnlt/C7BPPd5jj4XMx9eajvxcnAJFO3CMjHsJS6vVGOeW8HCbkliL//UaazqkGgsV9ZE6w32AXOFueyXtCrc5pvRlzyhZxLcgF2iTGTTTbUTBhBtnQY4FTqw1chKguJQlQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBACn0nEjij11EGpZNgdDGEfVZatrS5cS/fYz19YxTGyTxqbch54dC5jf/2WA49NrEaDo3CyfpkacpbgLBppbNBCt7pFERsM6NJA6DXCSmgKwR4vcRTHrqq5m0dUuFOi6vp8QcCNSxTPodyzT3B+f4DkAWuQ/y06OFfsKZZjXM/kjm</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
